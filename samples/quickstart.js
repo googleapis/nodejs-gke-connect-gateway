@@ -21,6 +21,7 @@ async function main() {
 
   // Creates a client
   new GatewayServiceClient();
+  // [END nodejs_connect_gateway_quickstart]
 }
 
 main(...process.argv.slice(2)).catch(err => {
