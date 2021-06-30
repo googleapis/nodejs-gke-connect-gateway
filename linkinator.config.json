@@ -2,7 +2,6 @@
   "recurse": true,
   "skip": [
     "https://codecov.io/gh/googleapis/",
-    "https://github.com/googleapis/nodejs-connect-gateway/blob/master/CHANGELOG.md",
     "www.googleapis.com",
     "img.shields.io"
   ],
