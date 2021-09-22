@@ -340,6 +340,10 @@ export class GatewayServiceClient {
    *   for more details and examples.
    * @example
    * const [response] = await client.getResource(request);
+   *
+   * @example <caption>include:samples/generated/v1beta1/gateway_service.get_resource.js</caption>
+   * region_tag:gateway_get_resource_sample
+   *
    */
   getResource(
     request?: protos.google.api.IHttpBody,
@@ -422,6 +426,10 @@ export class GatewayServiceClient {
    *   for more details and examples.
    * @example
    * const [response] = await client.postResource(request);
+   *
+   * @example <caption>include:samples/generated/v1beta1/gateway_service.post_resource.js</caption>
+   * region_tag:gateway_post_resource_sample
+   *
    */
   postResource(
     request?: protos.google.api.IHttpBody,
@@ -504,6 +512,10 @@ export class GatewayServiceClient {
    *   for more details and examples.
    * @example
    * const [response] = await client.deleteResource(request);
+   *
+   * @example <caption>include:samples/generated/v1beta1/gateway_service.delete_resource.js</caption>
+   * region_tag:gateway_delete_resource_sample
+   *
    */
   deleteResource(
     request?: protos.google.api.IHttpBody,
@@ -586,6 +598,10 @@ export class GatewayServiceClient {
    *   for more details and examples.
    * @example
    * const [response] = await client.putResource(request);
+   *
+   * @example <caption>include:samples/generated/v1beta1/gateway_service.put_resource.js</caption>
+   * region_tag:gateway_put_resource_sample
+   *
    */
   putResource(
     request?: protos.google.api.IHttpBody,
@@ -668,6 +684,10 @@ export class GatewayServiceClient {
    *   for more details and examples.
    * @example
    * const [response] = await client.patchResource(request);
+   *
+   * @example <caption>include:samples/generated/v1beta1/gateway_service.patch_resource.js</caption>
+   * region_tag:gateway_patch_resource_sample
+   *
    */
   patchResource(
     request?: protos.google.api.IHttpBody,
