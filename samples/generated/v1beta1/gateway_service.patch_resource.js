@@ -12,11 +12,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-
 'use strict';
 
 function main() {
-  // [START gateway_v1beta1_generated_GatewayService_GetResource_async]
+  // [START gateway_v1beta1_generated_GatewayService_PatchResource_async]
   /**
    * TODO(developer): Uncomment these variables before running the sample.
    */
@@ -35,23 +34,23 @@ function main() {
   // const extensions = 1234
 
   // Imports the Gateway library
-  const {GatewayServiceClient} = require('@google-cloud/gke-connect-gateway').v1beta1;
+  const {GatewayServiceClient} =
+    require('@google-cloud/gke-connect-gateway').v1beta1;
 
   // Instantiates a client
   const gatewayClient = new GatewayServiceClient();
 
-  async function getResource() {
+  async function patchResource() {
     // Construct request
-    const request = {
-    };
+    const request = {};
 
     // Run request
-    const response = await gatewayClient.getResource(request);
+    const response = await gatewayClient.patchResource(request);
     console.log(response);
   }
 
-  getResource();
-  // [END gateway_v1beta1_generated_GatewayService_GetResource_async]
+  patchResource();
+  // [END gateway_v1beta1_generated_GatewayService_PatchResource_async]
 }
 
 process.on('unhandledRejection', err => {
