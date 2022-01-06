@@ -1,6 +1,6 @@
 {
   "name": "connectgateway",
-  "name_pretty": "GKE Connect Gateway API",
+  "name_pretty": "GKE Connect Gateway",
   "product_documentation": "https://cloud.google.com/anthos/multicluster-management/gateway",
   "client_documentation": "https://cloud.google.com/nodejs/docs/reference/gke-connect-gateway/latest",
   "issue_tracker": "https://github.com/googleapis/nodejs-gke-connect-gateway/issues",
