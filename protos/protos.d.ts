@@ -123,35 +123,35 @@ export namespace google {
                     namespace GatewayService {
 
                         /**
-                         * Callback as used by {@link google.cloud.gkeconnect.gateway.v1beta1.GatewayService#getResource}.
+                         * Callback as used by {@link google.cloud.gkeconnect.gateway.v1beta1.GatewayService|getResource}.
                          * @param error Error, if any
                          * @param [response] HttpBody
                          */
                         type GetResourceCallback = (error: (Error|null), response?: google.api.HttpBody) => void;
 
                         /**
-                         * Callback as used by {@link google.cloud.gkeconnect.gateway.v1beta1.GatewayService#postResource}.
+                         * Callback as used by {@link google.cloud.gkeconnect.gateway.v1beta1.GatewayService|postResource}.
                          * @param error Error, if any
                          * @param [response] HttpBody
                          */
                         type PostResourceCallback = (error: (Error|null), response?: google.api.HttpBody) => void;
 
                         /**
-                         * Callback as used by {@link google.cloud.gkeconnect.gateway.v1beta1.GatewayService#deleteResource}.
+                         * Callback as used by {@link google.cloud.gkeconnect.gateway.v1beta1.GatewayService|deleteResource}.
                          * @param error Error, if any
                          * @param [response] HttpBody
                          */
                         type DeleteResourceCallback = (error: (Error|null), response?: google.api.HttpBody) => void;
 
                         /**
-                         * Callback as used by {@link google.cloud.gkeconnect.gateway.v1beta1.GatewayService#putResource}.
+                         * Callback as used by {@link google.cloud.gkeconnect.gateway.v1beta1.GatewayService|putResource}.
                          * @param error Error, if any
                          * @param [response] HttpBody
                          */
                         type PutResourceCallback = (error: (Error|null), response?: google.api.HttpBody) => void;
 
                         /**
-                         * Callback as used by {@link google.cloud.gkeconnect.gateway.v1beta1.GatewayService#patchResource}.
+                         * Callback as used by {@link google.cloud.gkeconnect.gateway.v1beta1.GatewayService|patchResource}.
                          * @param error Error, if any
                          * @param [response] HttpBody
                          */
@@ -2455,6 +2455,9 @@ export namespace google {
             /** FieldOptions lazy */
             lazy?: (boolean|null);
 
+            /** FieldOptions unverifiedLazy */
+            unverifiedLazy?: (boolean|null);
+
             /** FieldOptions deprecated */
             deprecated?: (boolean|null);
 
@@ -2485,6 +2488,9 @@ export namespace google {
 
             /** FieldOptions lazy. */
             public lazy: boolean;
+
+            /** FieldOptions unverifiedLazy. */
+            public unverifiedLazy: boolean;
 
             /** FieldOptions deprecated. */
             public deprecated: boolean;
